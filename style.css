@@ -13,9 +13,14 @@ body{
 .logo{
     display: flex;
     width: 200px;
+    
+}
+nav .logo{
+    margin-left: -15px;
 }
 .projects .logo{
     width: 200px
+    
 }
 .logo b{
     color: rgb(80,156,142);
@@ -80,6 +85,7 @@ nav button{
 .intro{
     /* background-color: orange; */
     max-width: 45%;
+    margin-top: 10%;
 }
 /* .intro i{
     margin: 5% 5% 0% 0%;
@@ -87,7 +93,12 @@ nav button{
 .intro h1{
     font-size: 35px;
 }
-.intro button{
+.buttons{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+.buttons button{
     color: white;
     border: none;
     background-color: rgb(73,160,144);
@@ -96,22 +107,26 @@ nav button{
     border-radius: 20px;
     height: 40px;
     width: 120px;
-    box-shadow: 10px 10px 15px rgb(212, 199, 199);
-}
-.buttons{
-    display: flex;
+    box-shadow: 10px 10px 45px rgb(230, 162, 184);
+    margin-right: 7%;
 }
 #done{
-    width: 30%;
+    width: 32%;
     border-radius: 20px;
     background-color: white;
     padding: 2px;
     box-shadow: 10px 10px 15px rgb(212, 199, 199);
 
 }
+#done i{
+    background-color: rgb(72,159,144);
+    padding: 5px;
+    border-radius: 50%;
+}
 #camera{
     background-color: rgb(248,186,36);
     padding: 10px;
+    margin-right: 6%;
     border-radius: 50%;
     box-shadow: 10px 10px 15px rgb(212, 199, 199);
 }
@@ -170,7 +185,7 @@ nav button{
 #one span{
     padding: 10px;
     font-size: 30px;
-    background-color: blue;
+    background-color: rgb(81,133,248);
     color: white;
     border-radius: 50%;
 }
@@ -182,8 +197,8 @@ nav button{
 #two span{
     padding: 10px;
     font-size: 30px;
-    background-color: blue;
-    color: white;
+    background-color: white;
+    color: rgb(141,110,106);
     border-radius: 50%;
    
 }
@@ -194,7 +209,7 @@ nav button{
 #three span{
     padding: 10px;
     font-size: 30px;
-    background-color: blue;
+    background-color: rgb(248,185,36);
     color: white;
     border-radius: 50%;
 }
@@ -225,7 +240,7 @@ nav button{
     box-shadow: 0px 0px 50px rgb(75, 72, 72);
 }
 .one b{
-    background-color: blue;
+    background-color: rgb(73,160,145);
     color: white;
     border-radius: 50%;
     padding: 2% 3%;
@@ -237,7 +252,19 @@ nav button{
     /* border-radius: 30px; */
 }
 .two b{
-    background-color: blue;
+    background-color: rgb(80,133,249);
+    color: white;
+    border-radius: 50%;
+    padding: 2% 3%;
+    margin-right: 5%;
+}
+.three{
+    /* background-color: white; */
+    padding: 15px;
+    /* border-radius: 30px; */
+}
+.three b{
+    background-color:rgb(248,190,36);
     color: white;
     border-radius: 50%;
     padding: 2% 3%;
@@ -247,8 +274,8 @@ nav button{
     margin-left: 50%;
 }
 .section3{
-    border-top: solid 15px rgb(201, 198, 198);
-    border-bottom: solid 15px rgb(201, 198, 198);
+    border-top: solid 15px rgb(226,226,226);
+    border-bottom: solid 15px rgb(226,226,226);
 }
 .update{
     text-align: center;   
@@ -274,6 +301,7 @@ nav button{
      color: white;
      font-weight: bolder;
      border: none;
+     height: 50px;
  }
  
 .signUp button{
