@@ -71,9 +71,9 @@ nav button{
     width: 100px;
 }
 .main img{
-    width: 240px;
-    height: 370px;
-    margin-left: 13%;
+    width: 580px;
+    height: 470px;
+    /* margin-left: 10%; */
     background-image: url(image/background.jpg);
     background-size: cover;
     background-position: top;
@@ -84,7 +84,7 @@ nav button{
 }
 .intro{
     /* background-color: orange; */
-    max-width: 45%;
+    max-width: 85%;
     margin-top: 10%;
 }
 /* .intro i{
@@ -111,7 +111,7 @@ nav button{
     margin-right: 7%;
 }
 #done{
-    width: 32%;
+    width: 38%;
     border-radius: 20px;
     background-color: white;
     padding: 2px;
@@ -215,18 +215,18 @@ nav button{
 }
 .projects{
     display: flex;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 #image1{
-    width: 250px;
+    width: 450px;
     height: 350px;
     background-image: url(image/background.jpg);
     background-size: cover;
     background-position: top;
 /* background-color: green; */
 }
-.projects div{
-    margin-left: 20%;
+.project1{
+    margin-left: 10%;
     width: 40%;
     /* background-color: yellow; */
 }
@@ -303,6 +303,9 @@ nav button{
      border: none;
      height: 50px;
  }
+ .signUp ::placeholder{
+     color: white;
+ }
  
 .signUp button{
     border: none;
@@ -323,7 +326,7 @@ nav button{
 .work h1{
     font-size: 25px;
     /* background-color: blueviolet; */
-    width: 65%;
+    width: 85%;
 }.work button{
     color: white;
     border: none;
@@ -337,11 +340,12 @@ nav button{
     
 }
 #image{
-    width: 350px;
-    height: 500px;
+    width: 550px;
+    height: 400px;
     background-image: url(image/bubble.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
     
 }
 label{
@@ -354,7 +358,7 @@ label{
 .name input{
     border: none;
     background-color: rgb(254,248,248);
-    width: 59%;
+    width: 79%;
     padding: 10px 15px;
 }
 .message{
@@ -363,7 +367,8 @@ label{
 .message input{
     border: none;
     background-color: rgb(254,248,248);
-    width: 63%;
+    width: 83%;
     padding: 10px 0px 60px 15px;
 }
+
 
